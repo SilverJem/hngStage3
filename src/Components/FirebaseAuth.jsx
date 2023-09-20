@@ -27,7 +27,7 @@ function FirebaseAuth() {
     try {
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
       setUser(userCredential.user);
-      localStorage.setItem('pixelpalette', email)
+      localStorage.setItem('pixelpalette', user.email)
 
     } catch (error) {
       console.log(error)
@@ -79,9 +79,10 @@ function FirebaseAuth() {
                     {error && <p className="error">{error}</p>}
             <input type="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} />
           <input type="password" placeholder="Password" onChange={(e) => setPassword(e.target.value)} />
+          <div className='btn'>
+          <Link to="/signup"><button>Sign Up</button></Link>  
           <button onClick={handleSignIn}>Sign In</button>
-
-
+          </div>
           </div>
          
         </div>
