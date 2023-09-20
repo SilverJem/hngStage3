@@ -23,7 +23,7 @@ const UserGallery = (props) => {
   const [items, setItems] = useState([]);
   const [activeId, setActiveId] = useState(null);
   const [isLoading, setIsLoading] = useState(true); // Add loading state
-  const [collectionId, setCollectionId] = useState('kgtDeJOqpT0'); // Store the current collection ID
+  const [collectionId, setCollectionId] = useState('whb2OGBio9M'); // Store the current collection ID
   const query = props.query
   const { attributes, listeners, setNodeRef, transform, transition } = useSortable({ id: props.id });
   const style = {
