@@ -16,7 +16,7 @@ const Navbar = () => {
   const username = localStorage.getItem("pixelpalette");
   const navigate = useNavigate();
   const { Title } = Typography;
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(true);
 
   const toggleCollapsed = () => {
     setCollapsed(collapsed);
