@@ -57,10 +57,8 @@ Follow these steps to set up and run the Drag-and-Drop Image Gallery on your loc
 or create a new User on sign Up page
 
 ## Usage
-
-- To add images to the gallery, simply drag and drop image files into the gallery area.
 - You can reorder images within the gallery by dragging and dropping them to your desired position.
-- Clicking on an image will open it in a larger view with the option to delete it.
+- You can search for specific images with specific keywords.
 
 ## Customization
 
