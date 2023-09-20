@@ -16,15 +16,12 @@ const Navbar = () => {
   const username = localStorage.getItem("pixelpalette");
   const navigate = useNavigate();
   const { Title } = Typography;
-  const [collapsed, setCollapsed] = useState(true);
 
-  const toggleCollapsed = () => {
-    setCollapsed(collapsed);
-  };
+
 
   return (
     <div
-      className={`Navbar ${collapsed ? "collapsed" : ""}`}
+      className={`Navbar`}
     >
      
 
@@ -35,21 +32,13 @@ const Navbar = () => {
           </h1>
       
       </div>
-      <Button
-        onClick={toggleCollapsed}
-        style={{
-          background: "#efb764",
-          color: "white"
-        }}
-      >
-        {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
-      </Button>
+     
       <Menu
         className="nav"
         defaultSelectedKeys={["1"]}
         defaultOpenKeys={["sub1"]}
         mode="inline" 
-        inlineCollapsed={collapsed}
+        inlineCollapsed={true}
         theme="dark"
         onClick={(item) => {
           navigate(item.key);
