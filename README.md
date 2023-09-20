@@ -25,7 +25,7 @@ Follow these steps to set up and run the Drag-and-Drop Image Gallery on your loc
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-username/drag-and-drop-image-gallery.git
+   git clone[ https://github.com/your-username/drag-and-drop-image-gallery.git](https://github.com/SilverJem/hngStage3.git)
    ```
 
 2. **Navigate to the Project Directory**:
@@ -48,7 +48,7 @@ Follow these steps to set up and run the Drag-and-Drop Image Gallery on your loc
 
 5. **Open the Application**:
 
-   Open your web browser and go to [http://localhost:3000](http://localhost:3000) to view the Drag-and-Drop Image Gallery.
+   Open your web browser and go to [http://localhost:5173](http://localhost:5173) to view the Drag-and-Drop Image Gallery.
 
 ## Usage
 
