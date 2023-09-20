@@ -27,7 +27,7 @@ function FirebaseAuth() {
     try {
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
       setUser(userCredential.user);
-      localStorage.setItem('pixelpalette', user.email)
+      localStorage.setItem('pixelpalette', email)
 
     } catch (error) {
       console.log(error)
