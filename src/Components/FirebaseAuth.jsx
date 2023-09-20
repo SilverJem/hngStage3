@@ -49,7 +49,8 @@ function FirebaseAuth() {
       case 'auth/too-many-requests':
         setError(' Please try again at a later time');
           break;
-        
+      case 'auth/user-not-found':
+        setError('User Does Not Exist. Please Sign Up.')
       case 'auth/wrong-password':
         setError('Incorrect password or email. Please try again.');
         break;
