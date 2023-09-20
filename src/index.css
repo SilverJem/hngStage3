@@ -94,11 +94,9 @@ button:hover {
     color:white;
   }
   .loader-container {
-   
-
-    width: fit-content;
-    height: fit-content;
-    background-color: white; /* Semi-transparent background */
+    width: 20px;
+    height: 20px;
+    background-color: #172434; /* Semi-transparent background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,7 +105,7 @@ button:hover {
   
   .loader {
     border: 4px solid #f3f3f3; /* Light gray border */
-    border-top: 4px solid #3498db; /* Blue border on top */
+    border-top: 4px solid #ca9349; /* Blue border on top */
     border-radius: 50%; /* Create a circular loader */
     width: 20px;
     height: 20px;
