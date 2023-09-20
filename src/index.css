@@ -117,7 +117,7 @@ button:hover {
   }
   
   /* Responsive design */
-  @media (max-width: 650px) {
+  @media (max-width: 830px) {
     .login{
       flex-direction: column;
       width: 100vw;
