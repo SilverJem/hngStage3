@@ -43,12 +43,18 @@ Follow these steps to set up and run the Drag-and-Drop Image Gallery on your loc
 4. **Start the Development Server**:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
 5. **Open the Application**:
 
    Open your web browser and go to [http://localhost:5173](http://localhost:5173) to view the Drag-and-Drop Image Gallery.
+   6. **Login with**:
+ ```bash
+   email: user@example.com
+   password: 1Password
+   ```
+or create a new User on sign Up page
 
 ## Usage
 
